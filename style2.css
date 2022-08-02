@@ -4,44 +4,9 @@
     box-sizing: border-box;
 }
 
-
-.container{
-    background-color: aquamarine;
+.heading h4{
+    color: brown;
 }
-
-
-
-
-
-.wrapper{
-    padding: 50px 0;
-    width: 500px;
-    margin:  auto;
-    
+.heading span{
+    color: blue;
 }
-
-.wrapper h2 {
-    font-size: 30px;
-    margin: 0;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.wrapper h3 {
-    font-size: 22px;
-    margin: 8px 0 15px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-
-.wrapper p {
-    font-size: 16px;
-    font-family: Arial, Helvetica, sans-serif;
-    line-height: 26px;
-}
-
-.content-box{
-    background-color: azure;
-    padding: 30px;
-}
-
-img{display: block;}
