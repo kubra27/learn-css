@@ -4,9 +4,48 @@
     box-sizing: border-box;
 }
 
-.heading h4{
-    color: brown;
+.parent{
+    height: 100vh;
+    border: 20px solid gray;
+    display: flex;
+    flex-wrap: wrap;
+    
+
+    
+
+
 }
-.heading span{
-    color: blue;
+
+.child1{
+    /* width: 200px; */
+    height: 200px;
+    background-color: hotpink;
+    flex: 1 1 300px;
+    align-self: flex-start;
+    
+   
+}
+
+.child2{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(105, 255, 115);
+    align-self: center;
+    
+    
+}
+
+.child3{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(170, 105, 255);
+    align-self: flex-end;
+    
+}
+
+.child4{
+    width: 200px;
+    height: 200px;
+    background-color: aquamarine;
+    
 }
